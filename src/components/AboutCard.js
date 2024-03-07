@@ -3,7 +3,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 const AboutCard = ({ item }) => {
   return (
     <div className={`${item.color} flex gap-4 p-4 rounded-lg`}>
-      <div className='w-[35%] me-5'>
+      <div className='lg:w-[35%] w-[60%] lg:me-5 me-0'>
         <img src={item.cover} alt="" className='h-[135px] w-full rounded-lg' />
       </div>
       <div>

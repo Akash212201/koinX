@@ -8,6 +8,7 @@ import TradingViewWidget from './Chart'
 import Performance from './Performance'
 import Sentiment from './Sentiment'
 import AlsoLike from './AlsoLike'
+import PageShortCut from './PageShortCut'
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <div className='flex lg:flex-row flex-col lg:px-14 px-2 gap-6'>
             <div className='lg:w-[65%]'>
                 <TradingViewWidget/>
+                <PageShortCut/>
                 <Performance />
                 <Sentiment/>
                 <AboutBitCoin />

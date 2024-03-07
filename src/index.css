@@ -8,7 +8,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(224, 224, 224);
+  background-color: rgb(241 245 249);
 }
 body::-webkit-scrollbar {
   display: none;
@@ -27,6 +27,17 @@ background: linear-gradient(153deg, rgba(254,144,97,1) 0%, rgba(242,68,59,1) 100
 }
 .deskTop{
   display: none;
+}
+.active{
+  color: #0052fe;
+}
+.bottom-border {
+  display: block;
+  position: absolute;
+  width: 10%;
+  bottom: -3px; 
+  border-bottom: 2px solid #0052fe;
+  z-index: 1;
 }
 @media(max-width: 776px){
   .mobile{
