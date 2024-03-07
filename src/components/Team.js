@@ -23,7 +23,7 @@ const Team = () => {
         },
     ]
   return (
-    <div className='px-6 bg-white my-4 rounded-xl py-6'>
+    <div className='lg:px-6 px-2 bg-white my-4 rounded-xl py-6'>
         <h1 className='text-3xl font-bold mb-4'>Team</h1>
         <p className='mb-6 text-lg font-medium text-[#4e4e4e]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere dolorum nobis atque ut ratione id suscipit odio minus fugit accusantium, autem voluptas iure quos praesentium, nihil aperiam iusto.</p>
         {

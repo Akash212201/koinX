@@ -2,7 +2,7 @@ import React from 'react'
 
 const Tokenomics = () => {
   return (
-    <div className='bg-white py-6 px-8 rounded-xl mt-4'>
+    <div className='bg-white py-6 lg:px-8 px-2 rounded-xl mt-4'>
         <h1 className='text-[28px] font-bold mb-4'>Tokenomics</h1>
         
         <div className='mb-10'>

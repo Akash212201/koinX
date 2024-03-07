@@ -89,7 +89,7 @@ const Sentiment = () => {
         ]
     };
     return (
-        <div className='bg-white pt-6 pb-10 px-8 rounded-xl mb-6'>
+        <div className='bg-white pt-6 pb-10 lg:px-8 px-2 rounded-xl mb-6'>
             <h1 className='text-[28px] font-bold mb-2'>Sentiment</h1>
             <h1 className='text-xl font-bold my-6 text-[#404040]'>Key Events <a href="#!" className='bg-[#a3a3a3] text-white text-[10px] rounded-[50%] px-2 py-1 mb-12'>i</a></h1>
 

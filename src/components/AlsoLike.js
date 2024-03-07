@@ -67,22 +67,23 @@ const AlsoLike = () => {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           initialSlide: 2
         }
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 2
         }
       }
     ]
   };
 
   return (
-    <div className='bg-white lg:px-16 px-4 lg:py-28'>
+    <div className='bg-white lg:px-16 px-4 lg:py-28 py-4'>
       <h1 className='text-3xl font-bold mb-4'>You May Also Like</h1>
       <div className="slider-container mb-5">
         <Slider {...settings}>
@@ -94,6 +95,7 @@ const AlsoLike = () => {
           }
         </Slider>
       </div>
+      <h1 className='text-3xl font-bold mb-4 mt-10'>Trending Coins</h1>
       <div className="slider-container">
         <Slider {...settings}>
           {

@@ -25,21 +25,14 @@ code {
   background: rgb(254,144,97);
 background: linear-gradient(153deg, rgba(254,144,97,1) 0%, rgba(242,68,59,1) 100%);
 }
-.progress-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+.deskTop{
+  display: none;
 }
-
-.progress-bar-bg {
-  fill: none;
-  stroke: #ddd; /* Gray background color */
-}
-
-.progress-bar {
-  fill: none;
-  stroke: red; /* Red progress color */
-  stroke-linecap: round;
-  transition: stroke-dashoffset 0.35s;
+@media(max-width: 776px){
+  .mobile{
+    display: none;
+  }
+  .deskTop{
+    display: block;
+  }
 }

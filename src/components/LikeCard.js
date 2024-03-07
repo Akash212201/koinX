@@ -7,7 +7,7 @@ const LikeCard = ({ name, amount, cover, graph }) => {
   };
 
   return (
-    <div className='border lg:w-[275px] w-[220px] h-[180px] bg-[#fff] p-4 rounded-xl'>
+    <div className='border lg:w-[275px] w-[180px] h-[180px] bg-[#fff] p-4 rounded-xl'>
       <div className='flex gap-2 items-center'>
         <div className='w-[35px]'>
           <img src={cover} alt='' className='w-full' />
