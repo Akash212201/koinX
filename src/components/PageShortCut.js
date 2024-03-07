@@ -26,7 +26,7 @@ const PageShortCut = () => {
   };
 
   return (
-    <div className='mb-10 relative px-2'>
+    <div className='mb-10 relative px-2 mobile'>
       <div className='relative'>
         <ul className='flex justify-between items-center text-lg font-semibold'>
           {menuItems.map((item) => (
