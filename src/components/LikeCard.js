@@ -12,11 +12,11 @@ const LikeCard = ({ name, amount, cover, graph }) => {
         <div className='lg:w-[35px] w-[30px]'>
           <img src={cover} alt='' className='w-full' />
         </div>
-        <div className='lg:text-2xl text-xl'>{name}</div>
+        <div className='lg:text-2xl text-lg'>{name}</div>
       </div>
-      <h1 className='lg:text-2xl text-2xl my-2 font-bold' dangerouslySetInnerHTML={createMarkup(amount)}></h1>
-      <div className='flex justify-center items-center lg:w-[180px] w-[150px] pb-1 mx-auto'>
-        <img src={graph} alt='' className='w-full' />
+      <h1 className='lg:text-2xl text-xl my-2 font-bold' dangerouslySetInnerHTML={createMarkup(amount)}></h1>
+      <div className='flex justify-center items-center lg:w-[180px] w-[135px] lg:h-[80px] h-[35px] pb-1 mx-auto'>
+        <img src={graph} alt='' className='w-full h-full' />
       </div>
     </div>
   );
