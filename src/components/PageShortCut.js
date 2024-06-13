@@ -26,11 +26,11 @@ const PageShortCut = () => {
   };
 
   return (
-    <div className='mb-10 relative px-2'>
+    <div className='mb-10 relative px-2 '>
       <div className='relative'>
-        <ul className='flex justify-between items-center text-lg font-semibold'>
+        <ul className='flex justify-between items-center text-lg font-semibold lg:overflow-x-hidden overflow-x-auto flex-nowrap whitespace-nowrap'>
           {menuItems.map((item) => (
-            <li key={item}>
+            <li key={item} className='lg:mx-0 mx-3'>
               <a
                 href="#!"
                 className={activeItem === item ? 'active' : ''}

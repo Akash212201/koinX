@@ -89,7 +89,7 @@ const AlsoLike = () => {
         <Slider {...settings}>
           {
             data && data.map((coin, idx) => (
-              <LikeCard key={idx} name={coin.item.name} amount={coin.item.data.price} cover={coin.item.small} graph={coin.item.data.sparkline} />
+              <LikeCard key={idx} name={coin.item.name.length > 14 ? coin.item.name.substring(0, 14) : coin.item.name} amount={coin.item.data.price.toFixed(10)} cover={coin.item.small} graph={coin.item.data.sparkline} />
             ))
 
           }
@@ -100,7 +100,7 @@ const AlsoLike = () => {
         <Slider {...settings}>
           {
             data && data.map((coin, idx) => (
-              <LikeCard key={idx} name={coin.item.name} amount={coin.item.data.price} cover={coin.item.small} graph={coin.item.data.sparkline} />
+              <LikeCard key={idx} name={coin.item.name.length > 14 ? coin.item.name.substring(0, 14) : coin.item.name} amount={coin.item.data.price.toFixed(10)} cover={coin.item.small} graph={coin.item.data.sparkline} />
             ))
 
           }
